@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.font-customFont {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fullScreenHeight {
+    height: 100vh;
+}

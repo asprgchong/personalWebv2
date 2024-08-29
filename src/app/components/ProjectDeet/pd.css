@@ -1,0 +1,31 @@
+.card:hover {
+    /* margin: 1rem; */
+    box-shadow: 5px 10px 20px #8888884a;
+    /* border-radius: 1rem; */
+    height: 55rem;
+    transition: height 1s;
+
+    #title {
+        /* color: #709DFF; */
+        font-weight: 800;
+    }
+
+    #showing {
+        height: auto;
+    }
+}
+
+#showing {
+    height: 30rem;
+}
+
+.card {
+    height: 30rem;
+    overflow: hidden;
+    transition: height 1s;
+}
+
+.comingSoon {
+    background-image: url('../../../../public/projectImg/comingSoon1.png');
+    background-size: cover;
+}

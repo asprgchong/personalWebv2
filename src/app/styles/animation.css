@@ -1,0 +1,47 @@
+#leftfade-in {
+    left: -40rem;
+    position: absolute;
+    opacity: 0;
+    width:100%;
+    animation: fadeInL 1.5s ease-in-out forwards;
+    animation-delay: -1ms;
+  }
+  
+  @keyframes fadeInL {
+    from {
+      left: -40rem;
+      opacity: 0;
+    }
+    to {
+      left: 0rem;
+      opacity: 1;
+    }
+  }
+
+#rightfade-in {
+    right: -40rem;
+    position: absolute;
+    opacity: 0;
+    width:100%;
+    animation: fadeInR 2s ease-in-out forwards;
+    animation-delay: -1ms;
+  }
+  
+  @keyframes fadeInR {
+    from {
+      right: -40rem;
+      opacity: 0;
+    }
+    to {
+      right: 0rem;
+      opacity: 1;
+    }
+  }
+
+#content {
+    visibility: hidden;
+}
+
+#loading{
+    visibility: visible;
+}
