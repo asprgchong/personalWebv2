@@ -19,10 +19,9 @@
     height: 30rem;
 }
 
-.card {
-    height: 30rem;
-    overflow: hidden;
-    transition: height 0.2s;
+.card_pub {
+    /* box-shadow: inset 2px 2px 2px 5px #8888884a; */
+    padding: 2rem; 
 }
 
 .comingSoon {
