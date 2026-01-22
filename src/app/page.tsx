@@ -171,12 +171,12 @@ export default function Home() {
                                 description="Developed a static webpage for a Chicago-based Arts Festival organized by the non-profit, Manadala Arts. Designed a custom CTA-inspired frontend using React framework featuring local artists, creations, and their story."
                             />
 
-                            <ProjectDeets
+                            {/* <ProjectDeets
                                 title="Bright Endeavors"
                                 category='Front-End UI Design'
                                 stack={['figma']}
                                 description='Developed a Figma prototype for a local non-profit to design a customer loyalty program'
-                            />
+                            /> */}
 
                             {/* <ProjectDeets 
                                 title="TechTeam Artificial Neural Network" 
