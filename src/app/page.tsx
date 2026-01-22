@@ -84,6 +84,7 @@ export default function Home() {
                             stack={['js']}
                             description='Engineered +100,000 data pipeline within 5 second timeouts via Twitch IRC and Pubsub extraction for conducting our 3 tiered experimental design. Measured baseline performance against foundation models and tested counter-factuals on Twitch black-box model.   Wrote documentation for code-to-release detailing the Twitch chatbot setup and challenges with Twitch 2FA system'
                             github={"https://github.com/asprgchong/HateSpeechModerationTwitch"}
+                            platform={""}
                             paper={"https://arxiv.org/abs/2506.07667"}
                         />
                         <Research 
@@ -92,6 +93,7 @@ export default function Home() {
                             stack={['js']}
                             description='Engineered a React-Django full-stack prototype enabling epidemiologists to analyse geospatial datasets with 1000+ observations of gene mutation and cancer incidence data from UChicago Medicine`s catchment area. Implemented interactive spatial temporal mapping with Leaflet.js and Bayesian causal inference methods. Automated data ingestion and preprocessing pipelines for multi-decade public health datasets (1988-2022), supporting scalable spatial analysis workflows via Census API. V1 paper can be found at https://www.nature.com/articles/s41598-024-57604-y'
                             github={""}
+                            platform={"https://cancercatchmentareas.com/"}
                             paper={""}
                         />
                     </div>
@@ -110,7 +112,7 @@ export default function Home() {
                             description='Designed brand-focused UI and user-flow diagrams with Figma. Developed responsive and interactive frontend designs in React while coordinating the engineering and UX design team. This led to a leadership role of designers and engineers to design and build the company website. Implemented Trello task delegation to improve issue resolution and cross-team communication. Features specifically designed: (1) Animation of Services page designed, (2) Redesigned footer (3) Responsive Design'
                             year={'June 2023 - Sept 2023'}
                             stack={['react', 'figma']}
-                            link={"https://skyit.services/services"}
+                            link={""}
                         />
 
                         <Timeline 
@@ -168,6 +170,14 @@ export default function Home() {
                                 stack={['react', 'figma']}
                                 description="Developed a static webpage for a Chicago-based Arts Festival organized by the non-profit, Manadala Arts. Designed a custom CTA-inspired frontend using React framework featuring local artists, creations, and their story."
                             />
+
+                            <ProjectDeets
+                                title="Bright Endeavors"
+                                category='Front-End UI Design'
+                                stack={['figma']}
+                                description='Developed a Figma prototype for a local non-profit to design a customer loyalty program'
+                            />
+
                             {/* <ProjectDeets 
                                 title="TechTeam Artificial Neural Network" 
                                 category="Student Involvement Workshops" 
@@ -181,6 +191,37 @@ export default function Home() {
                                 description="Learned Swift framework and UI kits to implement front-end designs on Apple's native IDE, XCode. Implemented cloud-based APIs for coursework projects like weather apps to connect custom UI to our backend design. Developed an MVP of an college club manager for both members and board members to streamline attendance and event coordination"
                             /> */}
                         </div>
+                    </div>
+                </div>
+
+                <div className="mb-10">
+                    <p id="projects"></p>
+                    <h1 className='text-[5rem] font-semibold text-[#5c607b] text-center mt-20'>figma projects</h1>
+                    <div className="w-full h-5/6 ease-in mt-24 flex flex-row justify-center flex-wrap">
+                        <Timeline 
+                            title = {"Mandala Arts Festival"}
+                            company={""}
+                            description=''
+                            year={''}
+                            stack={[]}
+                            link={"https://embed.figma.com/proto/8Gykev9WZiniBhr83k0u6n/TechTeam-MSAPA-Figma?node-id=131-14&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=131%3A14&show-proto-sidebar=1&embed-host=share"}
+                        />
+                        <Timeline 
+                            title = {"Bright Endeavors"}
+                            company={""}
+                            description=''
+                            year={''}
+                            stack={[]}
+                            link={"https://embed.figma.com/proto/BxFkFq0qVFQw4RpVeDw5ak/Bright-Endeavors-Project?scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=4-3610&starting-point-node-id=4%3A3610&show-proto-sidebar=1&embed-host=share"}
+                        />
+                        <Timeline 
+                            title = {"GBCS Website"}
+                            company={""}
+                            description=''
+                            year={''}
+                            stack={[]}
+                            link={"https://embed.figma.com/proto/56g0tYfTsPyy3iuJ4klCaR/GBCS-Mockups?node-id=1-2&embed-host=share"}
+                        />
                     </div>
                 </div>
             </div>

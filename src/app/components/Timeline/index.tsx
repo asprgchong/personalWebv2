@@ -18,7 +18,8 @@ const SimpleComponent = ({title, company, description, year, link, stack}: Simpl
     return(
         <>
             <div className="card_pub relative h-50 ml-5 mr-5 w-4/6 mb-5 justify-items-start p-4">
-                {link != "" ? <iframe width="100%" height="700px" src={link} className='frame' /> : <></>}
+                {/* {link != "" ? <iframe width="100%" height="700px" src={link} className='frame' /> : <></>} */}
+                {link != "" ? <iframe width="100%" height="700px" src={link} allowFullScreen></iframe> : <></>}
                 <div className='mb-5 w-full mt-10'>
                     <div className="flex justify-between">
                         <p className='font-bold text-xl'>{company}</p>
